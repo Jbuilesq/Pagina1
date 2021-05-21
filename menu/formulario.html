@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>pagina con barra de navegacion</title>
+	<meta charset="utf-8">
+	<meta name="keywords" content="pagina,prueba">
+	<meta name="descrition" content="Esta es una pagina desarrollada en HTML para aprender">
+	<meta name="author" content="juan david">
+	<link rel="icon" href="icono.ico">
+	<style>
+		ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+		}
+		li{
+			float: left;
+		}
+		li a {
+			display: block;
+			padding: 8px;
+			background-color: silver;
+
+		}
+
+	</style>
+</head>
+<body background="../imagen/fondo.jpeg" >
+	<header>
+		<nav>
+			<ul>
+				<li><a href="../index.html">Inicio</a></li>
+				<li><a href="imagen.html">Imagen</a></li>
+				<li><a href="video.html">Video</a></li>
+				<li><a href="sonido.html">Sonido</a></li>
+				<li><a href="formulario.html">Formulario</a></li>
+						
+			</ul>
+		</nav>
+	</header>
+		<table bgcolor=c0c0c0 align=center>
+			<td>
+				<h1 align=center>FORMULARIO </h1>
+				<form>
+					<center>
+						<h2>Diligenciar los siguientes datos:</h2>
+						<p>Nombres</p>
+						<input type="text" placeholder="Nombres" required="" value="">
+						<br>
+						<p>Apellidos</p>
+						<input type="text" placeholder="Apellidos" required="" value="">
+						<br>
+						<p>Usuario</p>
+						<input type="text" placeholder="Usuario" required="" value="">
+						<br>
+						<p>ingrese su contraseña</p>
+						<input type="password" placeholder="Contraseña" required="">
+						<br>
+						<p>Ingrese su numero de documento</p>
+						<input type="number">
+						<br>
+						<p>Ingrese su correo</p>
+						<input type="email">
+						<br>
+						<input type="submit">
+						<br>
+						<p><b>Nota:</b> Si se ingresa la informacion no va a ningun lado por que no se encuentra enlazado con nada :P </p>	
+					</center>
+				</form>
+			</td>
+		</table>
+	</body>
+</html>

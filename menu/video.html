@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>pagina con barra de navegacion</title>
+	<meta charset="utf-8">
+	<meta name="keywords" content="pagina,prueba">
+	<meta name="descrition" content="Esta es una pagina desarrollada en HTML para aprender">
+	<meta name="author" content="juan david">
+	<link rel="icon" href="icono.ico">
+	<style>
+		ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+		}
+		li{
+			float: left;
+		}
+		li a {
+			display: block;
+			padding: 8px;
+			background-color: silver;
+
+		}
+
+	</style>
+</head>
+<body background="../imagen/fondo.jpeg" >
+	<header>
+		<nav>
+			<ul>
+				<li><a href="../index.html">Inicio</a></li>
+				<li><a href="imagen.html">Imagen</a></li>
+				<li><a href="video.html">Video</a></li>
+				<li><a href="sonido.html">Sonido</a></li>
+				<li><a href="formulario.html">Formulario</a></li>
+						
+			</ul>
+		</nav>
+	</header>
+		<table bgcolor=c0c0c0 align=center>
+			<td>
+				<h1>Videos</h1>
+				<h2>Aqui se pueden observer los <b>videos.</b></h2>
+				<P>Este es un video de internet:</P>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/kN1XP-Bef7w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<p>No monto video local para no hacer muy pesado el archivo, pero dejo el codigo.</p>
+				<video src="aqui va la ubicacion del video"></video>
+			</td>
+		</table>
+	</body>
+</html>
